@@ -338,7 +338,7 @@ RepairTurret.get_energy_to_update = function(self)
 end
 
 RepairTurret.can_build = function(self)
-  return script_data.can_construct[self.force_index]
+  return false
 end
 
 RepairTurret.check_deactivate = function(self)
